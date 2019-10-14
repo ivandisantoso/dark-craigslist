@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Arvo');
+/* @import url('https://fonts.googleapis.com/css?family=Arvo'); */
 
 .wrapper{
     display: grid;
@@ -36,6 +36,38 @@
     grid-area: navi;
     background-color: blue;
 }
+
+.list-menu{
+    /* background-color: aqua; */
+    box-shadow:  0 1.5rem 1rem 1.5rem rgba(0,0,0,0.4);
+    margin: 1rem 0;
+    background-color: grey;
+    padding: 1rem 0;
+    
+}
+
+.menu-item{
+    padding: 0 1rem;
+    margin: 1rem 0;
+
+    border-left: solid 8px transparent;
+
+}
+
+.left-menu-btn:hover{
+    opacity:0.25 ;
+}
+
+li:hover{
+    border-left-color: #323232;
+}
+.img-menu{
+    width: 100%;
+    height: 100%;
+    /* margin: .5rem 0; */
+    /* background-color: cornsilk; */
+}
+
 
 /* MAIN SECTION */
 .mid-search{
@@ -77,6 +109,19 @@ padding: 0 1rem;
 .card-content{
     padding: 1rem;
 }
+
+.zoom {
+    /* padding: 50px; */
+    /* background-color: green; */
+    transition: transform .2s; /* Animation */
+    /* width: auto;
+    height: auto; */
+    /* margin: 0 auto; */
+  }
+
+.zoom:hover {
+    transform: scale(1.25); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
 
 /* ADV SECTION */
 .advertisement{
@@ -120,22 +165,22 @@ padding: 0 1rem;
     } */
 }
 
-@media screen and (min-width:768px){
+@media screen and (min-width:700px){
     .deck-card{
-        background-color: grey;
+        /* background-color: grey; */
         grid-template-columns: 1fr repeat(1, minmax(auto, 25em)) 1fr;
         /* grid-template-columns: 1fr 1fr 1fr; */
 
     }
     .deck-card-list{
+        /* display: flex; */
         grid-column: 2/3;
-
     }
  
 
    
 }
-
+/* 
 @media screen and (min-width:1024px){
     .deck-card{
         background-color: aqua;
@@ -143,8 +188,8 @@ padding: 0 1rem;
 
     }
     .deck-card-list{
-        /* grid-column: 3/5; */
+        grid-column: 3/5;
 
     }
 
-}
+} */
