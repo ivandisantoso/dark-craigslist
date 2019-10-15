@@ -55,7 +55,7 @@
 .side-bar{
     grid-area: navi;
     background-color: blue;
-    max-width: 10rem;
+    max-width: 9rem;
 
     /* scroll bar */
     /* float:left;
@@ -64,7 +64,7 @@
     height: auto; */
     
 }
-.side-bar::-webkit-scrollbar {
+/* .side-bar::-webkit-scrollbar {
     width: 1em;
 }
 .side-bar::-webkit-scrollbar-track {
@@ -73,7 +73,7 @@
 .side-bar::-webkit-scrollbar-thumb {
     background-color: darkgrey;
     outline: 1px solid slategrey;
-  }
+  } */
 
 .list-menu{
     /* background-color: aqua; */
